@@ -1,0 +1,19 @@
+import java.util.Arrays;  
+public class Leadelemrnt()
+{
+public static void Leader(int arr[])
+{
+int n=arr.length;
+int current_lead=arr[n-1];
+printf("current lead is:",current_lead);
+for(int i=n-2;i<=0;i--)
+{
+if(current_lead<arr[i])
+{
+current_lead=arr[i];
+printf(current_lead);
+}
+
+}
+}
+}
